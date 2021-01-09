@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./img/hero.jpg");
+    padding: 20px 100px;
+    /* background-image: url("./img/hero.jpg"); */
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    float: right;
+    padding-top: 5px;
+}
+.navbar p{
+    color: white;
+    padding: 0 20px;
+}
+.navbar .item{
+    display: inline-block;
+    
+    /* padding: 0 10px */
+}
+.btn-header{
+    padding: 12px 30px;
+    background-color: #fff;
+    
+}
+.container .intro{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+ .intro .one { 
+    font-style: normal;
+    font-weight: 500%;
+    font-size: 350%;
+    line-height: 1;
+    max-width: 83.9rem;
+    /* margin: 0 auto; */
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+  } 
+
+  .intro .two {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 85px;
+
+} 
+
+span{
+    color: rgb(209, 218, 89);
+    
+}
+.intro .btn{
+    padding: 25px 70px;
+    border: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(0,220,70), rgb(180, 206, 92));
+}
+
+/* .partner{
+    background: #333;
+} */
+
+.container-partner{
+    display: flex;
+    padding: 50px 20px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f8f8ff;
+    
+}
+
+.part{
+   padding: 0 35px;
+   
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px
+}
+  
+
+/* why-decagon */
+.why-decagon{
+    padding: 60px 100px;
+}
+
+.why p{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding-bottom: 30px; 
+}
+
+.why-sect{
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    display: flex;
+}
+
+.image img{
+    height: 500px;
+}
+
+
+.clone{
+    padding: 30px 40px;
+}
+
+.clone h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.clone p{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+/* section contries */
+
+.section-countries h4{
+    text-align: center;
+    font-size:25px;
+    font-weight: normal;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* testimonial */
+
+.testimonial{
+    display: flex;
+}
+
+.testimonial p{
+    
+}
+
+  
+
