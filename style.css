@@ -19,7 +19,6 @@ header {
     url("./img/hero.jpg");
   padding: 10px 100px;
   background-position: center center;
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -215,7 +214,7 @@ header {
   position: absolute;
   bottom: 5px;
 }
-.leader-social span{
+.leader-social span {
   padding: 10px 20px;
 }
 
@@ -478,9 +477,13 @@ a {
   font-weight: bold;
   color: white;
 }
-.copyright-text span{
+.copyright-text span {
   color: green;
   font-weight: bold;
+}
+.center-page {
+  max-width: 1400px;
+  margin: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -669,3 +672,10 @@ a {
     padding: 30px 22px;
   }
 }
+
+/* @media screen and (min-width: 5200px) {
+  .center-page {
+    margin: auto;
+    width: 25%;
+  }
+} */
